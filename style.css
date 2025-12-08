@@ -84,3 +84,21 @@ a[href="#design"] {
 
 
 /* Hieronder komen jouw animaties en stijlen */
+
+/* a[href="#frontend"] {
+  
+} */
+
+
+.frontend{
+  animation-name: scalie-de-palie;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-out;
+}
+
+
+@keyframes scalie-de-palie {
+  50% {
+    transform: scale(1.5);
+  }
+}
