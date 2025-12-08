@@ -27,9 +27,18 @@ designLink.addEventListener('animationend', jumpHandler)
 
 // Stap 1: querySelector
 // let scaleLink = document.querySelector...
+const scalelink = document.querySelector("[href='#frontend']")
 
 // Stap 2: addEventListener
 // scaleLink.addEventListener...
+scalelink.addEventListener('click', function () {
+  scalelink.classList.add('frontend');
+})
+
+scalelink.addEventListener('animationend', function() {
+  scalelink.classList.remove('frontend');
+})
 
 // Stap 3: (Callback functie met) classList (.toggle(), .add(), etc.)
 // scaleLink.classList.toggle...
+
