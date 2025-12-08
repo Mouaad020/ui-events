@@ -42,3 +42,18 @@ scalelink.addEventListener('animationend', function() {
 // Stap 3: (Callback functie met) classList (.toggle(), .add(), etc.)
 // scaleLink.classList.toggle...
 
+
+//Stap 1: queryselector
+const transform = document.querySelector("[href='#and']")
+
+//Stap 2: addeventlistener
+//Stap 3: Callback
+transform.addEventListener('click', function () {
+  transform.classList.add('and');
+})
+
+transform.addEventListener('animationend', function() {
+  transform.classList.remove('frontend');
+})
+
+
