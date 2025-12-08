@@ -85,9 +85,6 @@ a[href="#design"] {
 
 /* Hieronder komen jouw animaties en stijlen */
 
-/* a[href="#frontend"] {
-  
-} */
 
 
 .frontend{
@@ -100,5 +97,25 @@ a[href="#design"] {
 @keyframes scalie-de-palie {
   50% {
     transform: scale(1.5);
+  }
+}
+
+.and{
+  animation-name: optimus;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes optimus {
+  0% {
+    
+  }
+
+  50% {
+    transform: translateX(1em);
+  }
+
+  100%{
+
   }
 }
