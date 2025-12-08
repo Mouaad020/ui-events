@@ -53,7 +53,20 @@ transform.addEventListener('click', function () {
 })
 
 transform.addEventListener('animationend', function() {
-  transform.classList.remove('frontend');
+  transform.classList.remove('and');
+})
+
+//Stap 1: queryselector
+const shake = document.querySelector("[href='#development']")
+
+//Stap 2: addeventlistener
+//Stap 3: Callback
+shake.addEventListener('dblclick', function () {
+  shake.classList.add('development');
+})
+
+shake.addEventListener('animationend', function() {
+  shake.classList.remove('development');
 })
 
 
