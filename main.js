@@ -70,3 +70,11 @@ shake.addEventListener('animationend', function() {
 })
 
 
+//Stap 1: queryselector
+const scroll = document.querySelector("[href='#events']")
+//Stap 2: addeventlistener
+window.scroll.addEventListener('wheel', function(event) {
+  const deltaY = event.deltaY;
+  if (deltaY < 0)
+})
+//Stap 3: Callback
